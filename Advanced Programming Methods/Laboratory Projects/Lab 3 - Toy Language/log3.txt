@@ -1,0 +1,175 @@
+ExeStack
+MyStack{
+	(boolean a;(int v;(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'})))))
+}
+SymbolTable
+MyDictionary{
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+	(int v;(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'}))))
+	boolean a
+}
+SymbolTable
+MyDictionary{
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+	(int v;(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'}))))
+}
+SymbolTable
+MyDictionary{
+	a: false
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+	(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'})))
+	int v
+}
+SymbolTable
+MyDictionary{
+	a: false
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+	(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'})))
+}
+SymbolTable
+MyDictionary{
+	a: false
+	v: 0
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+	((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'}))
+	a=ValueExp{e=true}
+}
+SymbolTable
+MyDictionary{
+	a: false
+	v: 0
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+	((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'}))
+}
+SymbolTable
+MyDictionary{
+	a: true
+	v: 0
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}))
+}
+SymbolTable
+MyDictionary{
+	a: true
+	v: 0
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	v=ValueExp{e=2}
+}
+SymbolTable
+MyDictionary{
+	a: true
+	v: 0
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+	print(VarExp{id='v'})
+}
+SymbolTable
+MyDictionary{
+	a: true
+	v: 2
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+}
+SymbolTable
+MyDictionary{
+	a: true
+	v: 2
+}
+Output
+	2
+
+FileTable
+MyFileTable{
+}
+
+

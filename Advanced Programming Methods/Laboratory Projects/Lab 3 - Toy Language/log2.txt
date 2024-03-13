@@ -1,0 +1,174 @@
+ExeStack
+MyStack{
+}
+SymbolTable
+MyDictionary{
+	a: 17
+	b: 22
+}
+Output
+	22
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+	(int a;(int b;(a=ArithExp{e1=ValueExp{e=2}, e2=ArithExp{e1=ValueExp{e=3}, e2=ValueExp{e=5}, op=3}, op=1};(b=ArithExp{e1=VarExp{id='a'}, e2=ArithExp{e1=ValueExp{e=7}, e2=ArithExp{e1=ValueExp{e=4}, e2=ValueExp{e=2}, op=4}, op=2}, op=1};print(VarExp{id='b'})))))
+}
+SymbolTable
+MyDictionary{
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+	(int b;(a=ArithExp{e1=ValueExp{e=2}, e2=ArithExp{e1=ValueExp{e=3}, e2=ValueExp{e=5}, op=3}, op=1};(b=ArithExp{e1=VarExp{id='a'}, e2=ArithExp{e1=ValueExp{e=7}, e2=ArithExp{e1=ValueExp{e=4}, e2=ValueExp{e=2}, op=4}, op=2}, op=1};print(VarExp{id='b'}))))
+	int a
+}
+SymbolTable
+MyDictionary{
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+	(int b;(a=ArithExp{e1=ValueExp{e=2}, e2=ArithExp{e1=ValueExp{e=3}, e2=ValueExp{e=5}, op=3}, op=1};(b=ArithExp{e1=VarExp{id='a'}, e2=ArithExp{e1=ValueExp{e=7}, e2=ArithExp{e1=ValueExp{e=4}, e2=ValueExp{e=2}, op=4}, op=2}, op=1};print(VarExp{id='b'}))))
+}
+SymbolTable
+MyDictionary{
+	a: 0
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+	(a=ArithExp{e1=ValueExp{e=2}, e2=ArithExp{e1=ValueExp{e=3}, e2=ValueExp{e=5}, op=3}, op=1};(b=ArithExp{e1=VarExp{id='a'}, e2=ArithExp{e1=ValueExp{e=7}, e2=ArithExp{e1=ValueExp{e=4}, e2=ValueExp{e=2}, op=4}, op=2}, op=1};print(VarExp{id='b'})))
+	int b
+}
+SymbolTable
+MyDictionary{
+	a: 0
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+	(a=ArithExp{e1=ValueExp{e=2}, e2=ArithExp{e1=ValueExp{e=3}, e2=ValueExp{e=5}, op=3}, op=1};(b=ArithExp{e1=VarExp{id='a'}, e2=ArithExp{e1=ValueExp{e=7}, e2=ArithExp{e1=ValueExp{e=4}, e2=ValueExp{e=2}, op=4}, op=2}, op=1};print(VarExp{id='b'})))
+}
+SymbolTable
+MyDictionary{
+	a: 0
+	b: 0
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+	(b=ArithExp{e1=VarExp{id='a'}, e2=ArithExp{e1=ValueExp{e=7}, e2=ArithExp{e1=ValueExp{e=4}, e2=ValueExp{e=2}, op=4}, op=2}, op=1};print(VarExp{id='b'}))
+	a=ArithExp{e1=ValueExp{e=2}, e2=ArithExp{e1=ValueExp{e=3}, e2=ValueExp{e=5}, op=3}, op=1}
+}
+SymbolTable
+MyDictionary{
+	a: 0
+	b: 0
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+	(b=ArithExp{e1=VarExp{id='a'}, e2=ArithExp{e1=ValueExp{e=7}, e2=ArithExp{e1=ValueExp{e=4}, e2=ValueExp{e=2}, op=4}, op=2}, op=1};print(VarExp{id='b'}))
+}
+SymbolTable
+MyDictionary{
+	a: 17
+	b: 0
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+	print(VarExp{id='b'})
+	b=ArithExp{e1=VarExp{id='a'}, e2=ArithExp{e1=ValueExp{e=7}, e2=ArithExp{e1=ValueExp{e=4}, e2=ValueExp{e=2}, op=4}, op=2}, op=1}
+}
+SymbolTable
+MyDictionary{
+	a: 17
+	b: 0
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+	print(VarExp{id='b'})
+}
+SymbolTable
+MyDictionary{
+	a: 17
+	b: 22
+}
+Output
+
+FileTable
+MyFileTable{
+}
+
+
+ExeStack
+MyStack{
+}
+SymbolTable
+MyDictionary{
+	a: 17
+	b: 22
+}
+Output
+	22
+
+FileTable
+MyFileTable{
+}
+
+
