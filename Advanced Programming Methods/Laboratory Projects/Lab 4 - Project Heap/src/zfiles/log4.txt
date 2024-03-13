@@ -1,0 +1,91 @@
+Execution stack: 
+[ (string varf|(varf = "test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))) ]
+Symbol table: 
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ string varf ]
+[ (varf = "test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))) ]
+Symbol table: 
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ string varf ]
+[ (varf = "test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))) ]
+Symbol table: 
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ (varf = "test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))) ]
+Symbol table: 
+varf -> ""
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ (varf = "test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))) ]
+Symbol table: 
+varf -> ""
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ varf = "test.in" ]
+[ (OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))) ]
+Symbol table: 
+varf -> ""
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ varf = "test.in" ]
+[ (OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))) ]
+Symbol table: 
+varf -> ""
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ (OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))) ]
+Symbol table: 
+varf -> "test.in"
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ (OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))) ]
+Symbol table: 
+varf -> "test.in"
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ OpenReadFile(varf) ]
+[ (int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))) ]
+Symbol table: 
+varf -> "test.in"
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ OpenReadFile(varf) ]
+[ (int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))) ]
+Symbol table: 
+varf -> "test.in"
+File table:
+Heap table:
+Output list: 
+
