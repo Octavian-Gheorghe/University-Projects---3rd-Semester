@@ -1,0 +1,1635 @@
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Ref(int) a;(new(a, ValueExp{e=20});(int v;((for(ValueExp{e=0} ; ValueExp{e=3} ; ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1} ; )Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})));print(readHeapExpression{VarExp{id='a'}})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(new(a, ValueExp{e=20});(int v;((for(ValueExp{e=0} ; ValueExp{e=3} ; ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1} ; )Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})));print(readHeapExpression{VarExp{id='a'}}))))
+	Ref(int) a
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(new(a, ValueExp{e=20});(int v;((for(ValueExp{e=0} ; ValueExp{e=3} ; ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1} ; )Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})));print(readHeapExpression{VarExp{id='a'}}))))
+	Ref(int) a
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(new(a, ValueExp{e=20});(int v;((for(ValueExp{e=0} ; ValueExp{e=3} ; ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1} ; )Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})));print(readHeapExpression{VarExp{id='a'}}))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (0,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(new(a, ValueExp{e=20});(int v;((for(ValueExp{e=0} ; ValueExp{e=3} ; ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1} ; )Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})));print(readHeapExpression{VarExp{id='a'}}))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (0,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int v;((for(ValueExp{e=0} ; ValueExp{e=3} ; ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1} ; )Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})));print(readHeapExpression{VarExp{id='a'}})))
+	new(a, ValueExp{e=20})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (0,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int v;((for(ValueExp{e=0} ; ValueExp{e=3} ; ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1} ; )Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})));print(readHeapExpression{VarExp{id='a'}})))
+	new(a, ValueExp{e=20})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (0,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int v;((for(ValueExp{e=0} ; ValueExp{e=3} ; ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1} ; )Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})));print(readHeapExpression{VarExp{id='a'}})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int v;((for(ValueExp{e=0} ; ValueExp{e=3} ; ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1} ; )Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})));print(readHeapExpression{VarExp{id='a'}})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	((for(ValueExp{e=0} ; ValueExp{e=3} ; ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1} ; )Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})));print(readHeapExpression{VarExp{id='a'}}))
+	int v
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	((for(ValueExp{e=0} ; ValueExp{e=3} ; ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1} ; )Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})));print(readHeapExpression{VarExp{id='a'}}))
+	int v
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	((for(ValueExp{e=0} ; ValueExp{e=3} ; ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1} ; )Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})));print(readHeapExpression{VarExp{id='a'}}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	((for(ValueExp{e=0} ; ValueExp{e=3} ; ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1} ; )Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})));print(readHeapExpression{VarExp{id='a'}}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(for(ValueExp{e=0} ; ValueExp{e=3} ; ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1} ; )Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(for(ValueExp{e=0} ; ValueExp{e=3} ; ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1} ; )Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(v=ValueExp{e=0};(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(v=ValueExp{e=0};(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	v=ValueExp{e=0}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	v=ValueExp{e=0}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}
+	Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}
+	Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+2
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+2
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 1
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}
+	print(VarExp{id='v'})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+2
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 1
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}
+	print(VarExp{id='v'})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+2
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 1
+}
+~~~~~~Output~~~~~~
+	0
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+	0
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+2
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 1
+}
+~~~~~~Output~~~~~~
+	0
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+	0
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+2
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}
+	Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 1
+}
+~~~~~~Output~~~~~~
+	0
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 0
+}
+~~~~~~Output~~~~~~
+	0
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+2
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}
+	Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 1
+}
+~~~~~~Output~~~~~~
+	0
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 1
+}
+~~~~~~Output~~~~~~
+	0
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 1
+}
+~~~~~~Output~~~~~~
+	0
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 1
+}
+~~~~~~Output~~~~~~
+	0
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 1
+}
+~~~~~~Output~~~~~~
+	0
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 2
+}
+~~~~~~Output~~~~~~
+	0
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}
+	print(VarExp{id='v'})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 1
+}
+~~~~~~Output~~~~~~
+	0
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 2
+}
+~~~~~~Output~~~~~~
+	0
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}
+	print(VarExp{id='v'})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 1
+}
+~~~~~~Output~~~~~~
+	0
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 2
+}
+~~~~~~Output~~~~~~
+	0
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 1
+}
+~~~~~~Output~~~~~~
+	0
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 2
+}
+~~~~~~Output~~~~~~
+	0
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 1
+}
+~~~~~~Output~~~~~~
+	0
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}
+	Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 2
+}
+~~~~~~Output~~~~~~
+	0
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 20
+}
+~~~~~~Output~~~~~~
+	0
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}
+	Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 2
+}
+~~~~~~Output~~~~~~
+	0
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 2
+}
+~~~~~~Output~~~~~~
+	0
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 2
+}
+~~~~~~Output~~~~~~
+	0
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+4
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 2
+}
+~~~~~~Output~~~~~~
+	0
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 2
+}
+~~~~~~Output~~~~~~
+	0
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+4
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 3
+}
+~~~~~~Output~~~~~~
+	0
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}
+	print(VarExp{id='v'})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 2
+}
+~~~~~~Output~~~~~~
+	0
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+4
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+	(while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=3}, intOperand=1})(Fork( (print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}));v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=1}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 3
+}
+~~~~~~Output~~~~~~
+	0
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}
+	print(VarExp{id='v'})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 2
+}
+~~~~~~Output~~~~~~
+	0
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+4
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 3
+}
+~~~~~~Output~~~~~~
+	0
+	1
+	2
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 2
+}
+~~~~~~Output~~~~~~
+	0
+	1
+	2
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+4
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(readHeapExpression{VarExp{id='a'}})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 3
+}
+~~~~~~Output~~~~~~
+	0
+	1
+	2
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	v=ArithExp{e1=VarExp{id='v'}, e2=readHeapExpression{VarExp{id='a'}}, op=3}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 2
+}
+~~~~~~Output~~~~~~
+	0
+	1
+	2
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+4
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 3
+}
+~~~~~~Output~~~~~~
+	0
+	1
+	2
+	20
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: (1,int)
+	v: 40
+}
+~~~~~~Output~~~~~~
+	0
+	1
+	2
+	20
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->20] 
+~~~~~~ID~~~~~
+4
+******************************
+
+

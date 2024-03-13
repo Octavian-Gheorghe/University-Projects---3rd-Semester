@@ -1,0 +1,2648 @@
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int a;(int b;(int c;(a=ValueExp{e=1};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int b;(int c;(a=ValueExp{e=1};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))))
+	int a
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int b;(int c;(a=ValueExp{e=1};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))))
+	int a
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int b;(int c;(a=ValueExp{e=1};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int b;(int c;(a=ValueExp{e=1};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int c;(a=ValueExp{e=1};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))))
+	int b
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int c;(a=ValueExp{e=1};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))))
+	int b
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int c;(a=ValueExp{e=1};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int c;(a=ValueExp{e=1};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(a=ValueExp{e=1};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))
+	int c
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(a=ValueExp{e=1};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))
+	int c
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(a=ValueExp{e=1};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(a=ValueExp{e=1};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))
+	a=ValueExp{e=1}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))
+	a=ValueExp{e=1}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))
+	b=ValueExp{e=2}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))
+	b=ValueExp{e=2}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))
+	c=ValueExp{e=5}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))
+	c=ValueExp{e=5}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	(IF(RelationalExpressions{firstExpression=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}, secondExpression=ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}, intOperand=5}) THEN((print(VarExp{id='a'});print(VarExp{id='b'})))ELSE((IF(RelationalExpressions{firstExpression=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}, secondExpression=ValueExp{e=10}, intOperand=5}) THEN((print(ValueExp{e=100});print(ValueExp{e=200})))ELSE(print(ValueExp{e=300})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	(IF(RelationalExpressions{firstExpression=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}, secondExpression=ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}, intOperand=5}) THEN((print(VarExp{id='a'});print(VarExp{id='b'})))ELSE((IF(RelationalExpressions{firstExpression=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}, secondExpression=ValueExp{e=10}, intOperand=5}) THEN((print(ValueExp{e=100});print(ValueExp{e=200})))ELSE(print(ValueExp{e=300})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	(print(VarExp{id='a'});print(VarExp{id='b'}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	(print(VarExp{id='a'});print(VarExp{id='b'}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	print(VarExp{id='b'})
+	print(VarExp{id='a'})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	print(VarExp{id='b'})
+	print(VarExp{id='a'})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	print(VarExp{id='b'})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	print(VarExp{id='b'})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+	1
+	2
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+	1
+	2
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+	1
+	2
+	300
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int a;(int b;(int c;(a=ValueExp{e=1};(b=ValueExp{e=3};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int b;(int c;(a=ValueExp{e=1};(b=ValueExp{e=3};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))))
+	int a
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int b;(int c;(a=ValueExp{e=1};(b=ValueExp{e=3};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))))
+	int a
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int b;(int c;(a=ValueExp{e=1};(b=ValueExp{e=3};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int b;(int c;(a=ValueExp{e=1};(b=ValueExp{e=3};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int c;(a=ValueExp{e=1};(b=ValueExp{e=3};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))))
+	int b
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int c;(a=ValueExp{e=1};(b=ValueExp{e=3};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))))
+	int b
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int c;(a=ValueExp{e=1};(b=ValueExp{e=3};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int c;(a=ValueExp{e=1};(b=ValueExp{e=3};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(a=ValueExp{e=1};(b=ValueExp{e=3};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))
+	int c
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(a=ValueExp{e=1};(b=ValueExp{e=3};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))
+	int c
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(a=ValueExp{e=1};(b=ValueExp{e=3};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(a=ValueExp{e=1};(b=ValueExp{e=3};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(b=ValueExp{e=3};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))
+	a=ValueExp{e=1}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(b=ValueExp{e=3};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))
+	a=ValueExp{e=1}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(b=ValueExp{e=3};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(b=ValueExp{e=3};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))
+	b=ValueExp{e=3}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))
+	b=ValueExp{e=3}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))
+	c=ValueExp{e=5}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))
+	c=ValueExp{e=5}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	(IF(RelationalExpressions{firstExpression=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}, secondExpression=ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}, intOperand=5}) THEN((print(VarExp{id='a'});print(VarExp{id='b'})))ELSE((IF(RelationalExpressions{firstExpression=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}, secondExpression=ValueExp{e=10}, intOperand=5}) THEN((print(ValueExp{e=100});print(ValueExp{e=200})))ELSE(print(ValueExp{e=300})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	(IF(RelationalExpressions{firstExpression=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}, secondExpression=ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}, intOperand=5}) THEN((print(VarExp{id='a'});print(VarExp{id='b'})))ELSE((IF(RelationalExpressions{firstExpression=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}, secondExpression=ValueExp{e=10}, intOperand=5}) THEN((print(ValueExp{e=100});print(ValueExp{e=200})))ELSE(print(ValueExp{e=300})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	(IF(RelationalExpressions{firstExpression=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}, secondExpression=ValueExp{e=10}, intOperand=5}) THEN((print(ValueExp{e=100});print(ValueExp{e=200})))ELSE(print(ValueExp{e=300})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	(IF(RelationalExpressions{firstExpression=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}, secondExpression=ValueExp{e=10}, intOperand=5}) THEN((print(ValueExp{e=100});print(ValueExp{e=200})))ELSE(print(ValueExp{e=300})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	(print(ValueExp{e=100});print(ValueExp{e=200}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	(print(ValueExp{e=100});print(ValueExp{e=200}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	print(ValueExp{e=200})
+	print(ValueExp{e=100})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	print(ValueExp{e=200})
+	print(ValueExp{e=100})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	print(ValueExp{e=200})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 5
+}
+~~~~~~Output~~~~~~
+	100
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	print(ValueExp{e=200})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 5
+}
+~~~~~~Output~~~~~~
+	100
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 5
+}
+~~~~~~Output~~~~~~
+	100
+	200
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 5
+}
+~~~~~~Output~~~~~~
+	100
+	200
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 1
+	b: 3
+	c: 5
+}
+~~~~~~Output~~~~~~
+	100
+	200
+	300
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int a;(int b;(int c;(a=ValueExp{e=3};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int b;(int c;(a=ValueExp{e=3};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))))
+	int a
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int b;(int c;(a=ValueExp{e=3};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))))
+	int a
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int b;(int c;(a=ValueExp{e=3};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int b;(int c;(a=ValueExp{e=3};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int c;(a=ValueExp{e=3};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))))
+	int b
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int c;(a=ValueExp{e=3};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))))
+	int b
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int c;(a=ValueExp{e=3};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int c;(a=ValueExp{e=3};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(a=ValueExp{e=3};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))
+	int c
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(a=ValueExp{e=3};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))
+	int c
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(a=ValueExp{e=3};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(a=ValueExp{e=3};(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))
+	a=ValueExp{e=3}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))
+	a=ValueExp{e=3}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 0
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(b=ValueExp{e=2};(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))
+	b=ValueExp{e=2}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))
+	b=ValueExp{e=2}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 0
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 2
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(c=ValueExp{e=5};(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 2
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))
+	c=ValueExp{e=5}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 2
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))
+	c=ValueExp{e=5}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 2
+	c: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}));print(ValueExp{e=300}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	Switch(ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}) (case ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}: (print(VarExp{id='a'});print(VarExp{id='b'}))) (case ValueExp{e=10}: (print(ValueExp{e=100});print(ValueExp{e=200}))) (default: print(ValueExp{e=300}))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	(IF(RelationalExpressions{firstExpression=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}, secondExpression=ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}, intOperand=5}) THEN((print(VarExp{id='a'});print(VarExp{id='b'})))ELSE((IF(RelationalExpressions{firstExpression=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}, secondExpression=ValueExp{e=10}, intOperand=5}) THEN((print(ValueExp{e=100});print(ValueExp{e=200})))ELSE(print(ValueExp{e=300})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	(IF(RelationalExpressions{firstExpression=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}, secondExpression=ArithExp{e1=VarExp{id='b'}, e2=VarExp{id='c'}, op=3}, intOperand=5}) THEN((print(VarExp{id='a'});print(VarExp{id='b'})))ELSE((IF(RelationalExpressions{firstExpression=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}, secondExpression=ValueExp{e=10}, intOperand=5}) THEN((print(ValueExp{e=100});print(ValueExp{e=200})))ELSE(print(ValueExp{e=300})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	(IF(RelationalExpressions{firstExpression=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}, secondExpression=ValueExp{e=10}, intOperand=5}) THEN((print(ValueExp{e=100});print(ValueExp{e=200})))ELSE(print(ValueExp{e=300})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	(IF(RelationalExpressions{firstExpression=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=10}, op=3}, secondExpression=ValueExp{e=10}, intOperand=5}) THEN((print(ValueExp{e=100});print(ValueExp{e=200})))ELSE(print(ValueExp{e=300})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	print(ValueExp{e=300})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+	print(ValueExp{e=300})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+	300
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(ValueExp{e=300})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+	300
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	a: 3
+	b: 2
+	c: 5
+}
+~~~~~~Output~~~~~~
+	300
+	300
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+

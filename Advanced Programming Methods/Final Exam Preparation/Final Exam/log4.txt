@@ -1,0 +1,41 @@
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int v;(v=ValueExp{e=4};((while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}));print(VarExp{id='v'}))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(v=ValueExp{e=4};((while(RelationalExpressions{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}));print(VarExp{id='v'})))
+	int v
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+

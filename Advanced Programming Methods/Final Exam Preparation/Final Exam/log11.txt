@@ -1,0 +1,1338 @@
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Ref(int) v1;(int cnt;(new(v1, ValueExp{e=2});(NewSemaphore(cnt);(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))));(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'}))))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int cnt;(new(v1, ValueExp{e=2});(NewSemaphore(cnt);(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))));(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'})))))))
+	Ref(int) v1
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int cnt;(new(v1, ValueExp{e=2});(NewSemaphore(cnt);(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))));(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'})))))))
+	Ref(int) v1
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int cnt;(new(v1, ValueExp{e=2});(NewSemaphore(cnt);(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))));(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'})))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: (0,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int cnt;(new(v1, ValueExp{e=2});(NewSemaphore(cnt);(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))));(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'})))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: (0,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(new(v1, ValueExp{e=2});(NewSemaphore(cnt);(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))));(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'}))))))
+	int cnt
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: (0,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(new(v1, ValueExp{e=2});(NewSemaphore(cnt);(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))));(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'}))))))
+	int cnt
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: (0,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(new(v1, ValueExp{e=2});(NewSemaphore(cnt);(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))));(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'}))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	cnt: 0
+	v1: (0,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(new(v1, ValueExp{e=2});(NewSemaphore(cnt);(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))));(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'}))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	cnt: 0
+	v1: (0,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(NewSemaphore(cnt);(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))));(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'})))))
+	new(v1, ValueExp{e=2})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	cnt: 0
+	v1: (0,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(NewSemaphore(cnt);(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))));(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'})))))
+	new(v1, ValueExp{e=2})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	cnt: 0
+	v1: (0,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(NewSemaphore(cnt);(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))));(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	cnt: 0
+	v1: (1,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->2] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(NewSemaphore(cnt);(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))));(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	cnt: 0
+	v1: (1,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->2] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))));(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'}))))
+	NewSemaphore(cnt)
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	cnt: 0
+	v1: (1,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->2] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))));(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'}))))
+	NewSemaphore(cnt)
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	cnt: 0
+	v1: (1,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->2] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))));(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'}))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	cnt: 1
+	v1: (1,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->2] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))));(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'}))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	cnt: 1
+	v1: (1,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->2] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'})))
+	Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	cnt: 1
+	v1: (1,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->2] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'})))
+	Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'}))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	cnt: 1
+	v1: (1,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->2] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Fork( (Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=2}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))));(Acquire{var='cnt'};(print(ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=1}, op=2});Release{var='cnt'})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	cnt: 1
+	v1: (1,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->2] 
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(Acquire{var='cnt'};(WriteHeap(v1,ArithExp{e1=readHeapExpression{VarExp{id='v1'}}, e2=ValueExp{e=10}, op=3});(print(readHeapExpression{VarExp{id='v1'}});Release{var='cnt'})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	cnt: 1
+	v1: (1,int)
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+[1->2] 
+~~~~~~ID~~~~~
+2
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int v1;(int v2;(v1=ValueExp{e=2};(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'})))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int v2;(v1=ValueExp{e=2};(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'}))))))
+	int v1
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int v2;(v1=ValueExp{e=2};(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'}))))))
+	int v1
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int v2;(v1=ValueExp{e=2};(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'}))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int v2;(v1=ValueExp{e=2};(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'}))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(v1=ValueExp{e=2};(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'})))))
+	int v2
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(v1=ValueExp{e=2};(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'})))))
+	int v2
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(v1=ValueExp{e=2};(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 0
+	v2: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(v1=ValueExp{e=2};(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 0
+	v2: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'}))))
+	v1=ValueExp{e=2}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 0
+	v2: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'}))))
+	v1=ValueExp{e=2}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 0
+	v2: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'}))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 2
+	v2: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'}))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 2
+	v2: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'})))
+	v2=ValueExp{e=3}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 2
+	v2: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'})))
+	v2=ValueExp{e=3}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 2
+	v2: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 2
+	v2: 3
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 2
+	v2: 3
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 2
+	v2: 3
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 2
+	v2: 3
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 2
+	v2: 3
+}
+~~~~~~Output~~~~~~
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+1
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int v1;(int v2;(v1=ValueExp{e=2};(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'})))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int v2;(v1=ValueExp{e=2};(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'}))))))
+	int v1
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int v2;(v1=ValueExp{e=2};(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'}))))))
+	int v1
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int v2;(v1=ValueExp{e=2};(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'}))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(int v2;(v1=ValueExp{e=2};(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'}))))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(v1=ValueExp{e=2};(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'})))))
+	int v2
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(v1=ValueExp{e=2};(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'})))))
+	int v2
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(v1=ValueExp{e=2};(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 0
+	v2: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(v1=ValueExp{e=2};(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'})))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 0
+	v2: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'}))))
+	v1=ValueExp{e=2}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 0
+	v2: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'}))))
+	v1=ValueExp{e=2}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 0
+	v2: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'}))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 2
+	v2: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(v2=ValueExp{e=3};(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'}))))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 2
+	v2: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'})))
+	v2=ValueExp{e=3}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 2
+	v2: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'})))
+	v2=ValueExp{e=3}
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 2
+	v2: 0
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 2
+	v2: 3
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	(IF(RelationalExpressions{firstExpression=VarExp{id='v1'}, secondExpression=ValueExp{e=0}, intOperand=6}) THEN(print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}}))ELSE(print(VarExp{id='v1'})))
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 2
+	v2: 3
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 2
+	v2: 3
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+	print(MULExp{exp1=VarExp{id='v1'}, exp2=VarExp{id='v2'}})
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 2
+	v2: 3
+}
+~~~~~~Output~~~~~~
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
+******************************
+~~~~~ExeStack~~~~~~
+MyStack{
+}
+~~~~~~SymbolTable~~~~~~
+MyDictionary{
+	v1: 2
+	v2: 3
+}
+~~~~~~Output~~~~~~
+	1
+
+~~~~~~FileTable~~~~~
+MyFileTable{
+}
+~~~~~~Heap~~~~~
+
+~~~~~~ID~~~~~
+3
+******************************
+
+
